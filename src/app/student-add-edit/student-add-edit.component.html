@@ -1,0 +1,32 @@
+<div mat-dialog-title class="title">
+    <h2>Student Form</h2>
+  </div>
+  <form [formGroup]="studentForm" (ngSubmit)="onFormSubmit()">
+    <div mat-dialog-content class="content">
+      <div class="row">
+        <mat-form-field appearance="outline">
+          <mat-label>First Name</mat-label>
+          <input matInput type="text" placeholder="Rahul" formControlName="firstName" />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Last Name</mat-label>
+          <input matInput type="text" placeholder="Kumar" formControlName="lastName"/>
+        </mat-form-field>
+      </div>
+      <div class="row">
+        <mat-form-field appearance="outline">
+          <mat-label>Email</mat-label>
+          <input matInput type="text" placeholder="rahul@gmail.com" formControlName="email" />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+          <mat-label>Phone</mat-label>
+          <input matInput type="text" placeholder="123546879" formControlName="phone" />
+        </mat-form-field>
+      </div>
+    </div>
+    <div mat-dialog-actions class="action">
+      <button mat-raised-button type="button" [mat-dialog-close]="false">Cancel</button>
+      <button mat-raised-button class="save" type="submit">{{data? 'Update':'Save'}}</button>
+    </div>
+  </form>
+  

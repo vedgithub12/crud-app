@@ -1,0 +1,17 @@
+
+.row{
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+}
+.save{
+    background-color: blue;
+    color: white;
+}
+.action{
+    padding: 0px 25px 20px;
+    button{
+        flex: 1;
+    }
+}
+

@@ -1,0 +1,46 @@
+{
+  "students": [
+    {
+      "firstName": "Laura",
+      "lastName": "Wilson",
+      "email": "lwilson6@example.com",
+      "phone": 1778989012,
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "firstName": "Robert",
+      "lastName": "Davis",
+      "email": "rdavis7@example.com",
+      "phone": 1889090123
+    },
+    {
+      "id": "9",
+      "firstName": "Sophia",
+      "lastName": "Garcia",
+      "email": "sgarcia8@example.com",
+      "phone": 1990101234
+    },
+    {
+      "id": "10",
+      "firstName": "James",
+      "lastName": "Martinez",
+      "email": "jmartinez9@example.com",
+      "phone": 2111212345
+    },
+    {
+      "id": "11",
+      "firstName": "Anna",
+      "lastName": "Rodriguez",
+      "email": "arodriguez10@example.com",
+      "phone": 2222323456
+    },
+    {
+      "id": "12",
+      "firstName": "Daniel",
+      "lastName": "Hernandez",
+      "email": "dhernandez11@example.com",
+      "phone": 2333434567
+    }
+  ]
+}
